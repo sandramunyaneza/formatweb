@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="border: 2px solid grey;box-shadow: violet ; width: 500px; height: 710px; text-align: center; margin: auto;background-color: tan;">
+
+        <h1>Inscription à un atélier</h1>
+        <img src="https://renfile.ch/wp-content/uploads/2022/10/siteweb-couture-new-6.jpg" alt="photo atelier couture" width="200" height="150">
+        <form action="https://renfile.ch/atelier-couture-2edition/#gallery-1" style="box-shadow: violet;">
+
+            <label for="nom">Nom</label> <br>
+            <input type="text"id="nom" name="nom" placeholder="votre nom" required><br><br>
+            <label for="email">email</label><br>
+            <input type="email"id="email"name="email" placeholder="email@gmail.com" required> <br><br>
+            <label for="phone">Télephone</label> <br>
+            <input type="tel"id="phone"name="phone" placeholder="+243 978 000 000" required> <br><br>
+
+
+            <label>Niveau :</label> <br>
+            <label for="debutant">débutant</label> 
+            <input type="radio"name="Niveau" id="debutant" value="debutant" required>
+            <label for="intermediaire">intermédiaire</label> 
+            <input type="radio"name="Niveau" id="intermediaire" value="intermediaire" required>
+            <label for="avancé">avancé</label>
+            <input type="radio" name="Niveau" id="avancé" value="avancé" required><br><br>
+
+            <label> Langages connus :</label> <br>
+            <label for="html">HTML</label>
+            <input type="checkbox" name="Langages connus" id="html"value="html">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="Langages connus" id="css"value="css">
+            <label for="js">Js</label>
+            <input type="checkbox" name="Langages connus" id="js" value="js"> <br><br>
+
+            <label for="pays">Pays</label>
+            <select name="pays" id="pays"required >
+
+                <option value="egypt">Egypt</option>
+                <option value="morocco">Morocco</option>
+                <option value="russia">Russia</option>
+                <option value="turkey">Turkey</option>
+                <option value="japan">Japan</option>
+
+            </select> <br><br>
+
+            <label for="commentaire">Message</label> <br>
+            <textarea name="commentaire" id="commentaire" rows="5" cols="30"></textarea> <br><br>
+
+            <button type="submit">Envoyer</button> 
+            <button type="reset">Annuler</button>
+
+
+
+
+
+        </form>
+    </div>
+</body>
+</html>

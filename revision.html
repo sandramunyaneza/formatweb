@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice tableau</title>
+  </head>
+  <body>
+    <div
+      style="
+        text-align: center;
+        border: 2px solid black;
+        width: 50%;
+        margin: auto;
+        padding: 10px;
+      "
+    >
+      <h1>Mon emploi de temps</h1>
+
+      <table
+        width="80"
+        %
+        border="1"
+        cellspacing="0"
+        cellpadding="10"
+        style="margin: auto; width: 500px"
+      >
+        <caption style="font-size: 16px; font-weight: bold">
+          <i>programme de la semaine</i>
+        </caption>
+        <thead>
+          <tr>
+            <th><strong>Jour</strong></th>
+            <th><strong>Matière</strong></th>
+            <th><strong>Heure</strong></th>
+            <th><strong>Enseignant</strong></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Lundi</td>
+            <td rowspan="2">Mathématiques</td>
+            <td>8h - 10h</td>
+            <td rowspan="2">Mme Sandra</td>
+          </tr>
+          <tr>
+            <td>Mardi</td>
+            <td>8h - 10h</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Mercredi</td>
+            <td>Physique</td>
+            <td>8h - 10h</td>
+            <td>Mme Therèse</td>
+          </tr>
+          <tr>
+            <td>Chimie</td>
+            <td>8h - 10h</td>
+            <td>Mme Faty</td>
+          </tr>
+          <tr>
+            <td>Jeudi</td>
+            <td>Mathématique</td>
+            <td>8h - 10h</td>
+            <td>Mme Sandra</td>
+          </tr>
+
+          <tr>
+            <td>Vendredi</td>
+            <td>physique</td>
+            <td>8h - 10h</td>
+            <td>Mme Therèse</td>
+          </tr>
+
+          <tr>
+            <td>Samedi</td>
+            <td>Chimie</td>
+            <td>8h - 10h</td>
+            <td>Mme Faty</td>
+          </tr>
+
+          <tr>
+            <td colspan="4">Bienvenu à tous</td>
+          </tr>
+        </tbody>
+
+        <caption style="caption-side: bottom; margin-top: 20px">
+          <strong>note: </strong
+          >les cours commencent à 8h00 du matin et se terminent à 10h00 du
+          matin.
+        </caption>
+      </table>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <div
+      style="
+        border: 3px solid;
+        padding: 20px;
+        width: 500px;
+        height: 800px;
+        text-align: center;
+        margin: auto;
+        border: 2px solid blueviolet;
+        padding-bottom: 5%;
+      "
+    >
+      <h1>CARTE DE VISITE</h1>
+      <img
+        src="carte.jpg"
+        alt="photo de carte de visite"
+        width="200"
+        height="150"
+      />
+      <br /><br />
+
+      <form
+        action=""
+        style="
+          padding: 20px;
+          width: 380px;
+          margin: auto;
+          border: 2px solid blueviolet;
+          height: 500px;
+          border-radius: 5%;
+        "
+      >
+        <label for="nom">Nom</label>
+        <input
+          type="text"
+          id="nom"
+          name="nom"
+          required
+          placeholder="votre nom"
+        />
+        <br /><br />
+        <label for="prenom"> prenom</label>
+        <input
+          type="text"
+          id="prenom"
+          name="prenom"
+          aria-placeholder="votre prenom"
+        />
+        <br /><br />
+        <label for="email"> email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="exemple@gmail.com"
+          required
+        />
+        <br /><br />
+        <label for="phone">Télephone</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="+33 6 12 34 56 78"
+        />
+        <br /><br />
+        <label for="Bio">Bio:</label> <br />
+        <textarea
+          id="Bio"
+          name="Bio"
+          rows="5"
+          cols="20"
+          placeholder="Parlez-nous de vous..."
+        ></textarea>
+        <br /><br />
+        <label for="etat-civil">Etat-civil:</label> <br />
+        <label for="Marié">Marié</label>
+        <input type="radio" id="Marié" name="etat-civil" value="Marié" />
+        <label for="Célibataire">Célibataire</label>
+        <input
+          type="radio"
+          id="Célibataire"
+          name="etat-civil"
+          value="Célibataire"
+        /><br /><br />
+        <label for="Profession">Profession:</label> <br />
+        <label for="etudiant">etudiant</label>
+        <input
+          type="checkbox"
+          id="etudiant"
+          name="Profession"
+          value="etudiant"
+        />
+        <label for="employé">employé</label>
+        <input type="checkbox" id="employé" name="Profession" value="employé" checked/>
+        <label for="autre">autre</label>
+        <input type="checkbox" id="autre" name="Profession" value="autre" />
+        <br /><br />
+
+        <label for="pays">Pays :</label>
+        <select name="pays" id="pays">
+            <option value="france">France</option>
+            <option value="senegal">Senegal</option>
+            <option value="mali">Mali</option>
+            <option value="cote d'ivoire">Cote d'Ivoire</option>
+            <option value="canada">Canada</option>
+        </select> <br>
+
+
+        <button type="submit">envoyer</button>
+      </form>
+    </div>
+  </body>
+</html>

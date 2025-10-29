@@ -1,0 +1,30 @@
+.profil{
+    margin: 50px;
+    padding: 50px;
+    border: 2px solid #800080;
+    width: 350px;
+    height: 350PX;
+    text-align: center;
+    background-color: #FF7F50;
+    position:fixed;
+    
+}
+#subprofile{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%  ;
+     object-fit: cover;
+     border-color: #800080;
+}
+.profil ul{
+    text-align: left;
+}
+#temporaire{
+    display: none;
+    background-color: violet;
+      padding: 10px;
+      border: 1px solid black;
+      display: block;
+}
+
+
